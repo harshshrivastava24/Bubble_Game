@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(198, 236, 198);
+}
+
+#content {
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: #fff ;
+    border-radius: 10px;
+}
+
+.ptop {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(50, 109, 50);
+}
+
+.pbtm {
+    width: 100%;
+    height: calc(100%-100px);
+    background-color: #000;
+}
